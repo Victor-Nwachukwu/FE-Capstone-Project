@@ -31,7 +31,7 @@ function Login({ username, setUsername, password, setPassword, statusMessage, ha
 
     if (username === fixedUsername && password === fixedPassword) {
       // Navigate to the quiz page on successful login
-      navigate('/quiz');
+      navigate('/selection');
     } else {
       // In a real application, you would handle this with a status message
       // or error handling state.
