@@ -23,7 +23,7 @@ function Login({ username, setUsername, password, setPassword, statusMessage, ha
 
   // The fixed username and password for a successful login
   const fixedUsername = 'user';
-  const fixedPassword = 'pass';
+  const fixedPassword = 'pass@2025';
 
   // Function to handle the form submission
   const handleLoginSubmit = (e) => {
