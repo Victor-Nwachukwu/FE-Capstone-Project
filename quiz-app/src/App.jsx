@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Splash from './pages/Splash';
 import Login from './pages/Login';
 import QuizSelectionPage from './selection/QuizSelectionPage';
+import QuizPage from './components/QuizPage';
+
 
 function App() {
   // State variables to hold the username and password
@@ -32,6 +34,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Splash />} />
         <Route path="/selection" element={<QuizSelectionPage />} />
+        <Route path="/quiz/:category/:difficulty" element={<QuizPage />} />
         {/*<Route path="/quiz/:category/:difficulty" element={ <QuizPage /> } /> */}
         {/* Pass state variables and handler as props to the Login component */}
         <Route 
@@ -48,6 +51,7 @@ function App() {
           } 
         />
       </Routes>
+
     </Router>
   );
 }
