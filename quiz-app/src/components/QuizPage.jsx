@@ -182,7 +182,7 @@ export default function QuizPage() {
   if (loading) {
     return (
       <div className="min-h-screen bg-gray-900 text-white flex items-center justify-center p-4">
-        <h1 className="text-3xl font-bold">Loading quiz questions...</h1>
+        <h1 className="text-2xl font-bold text-center">Loading quiz questions...</h1>
       </div>
     );
   }
@@ -205,20 +205,20 @@ export default function QuizPage() {
     return (
       <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center  p-4">
         <h1 className="text-4xl md:text-5xl text-center font-extrabold text-purple-600 md:mt-12 mb-12">Quiz Completed Successfully</h1>
-        <p className="text-2xl text-gray-400 font-bold mb-10">Big Congratulations To You 👏</p>
+        <p className="text-lg md:text-3xl text-gray-400 font-bold mb-10">Big Congratulations To You 👏</p>
         <div className="bg-gray-800 rounded-2xl p-6 shadow-2xl ">
           <p className="text-2xl font-bold  text-green-500">You answered 10 questions and got {score} out of {questions.length}. That's a great effort!</p>
         </div>
         <div className="flex space-x-4 mt-10">
           <button
             onClick={handleRetryQuiz}
-            className="px-8 py-4 bg-purple-600 text-black font-bold rounded-lg hover:bg-purple-900 hover:text-white transition-colors"
+            className="px-4 py-2  md:px-8 md:py-4 text-lg bg-purple-600 text-black font-bold rounded-lg hover:bg-purple-900 hover:text-white transition-colors"
           >
             Home Page
           </button>
           <button
             onClick={() => navigate('/selection')}
-            className="px-8 py-4 bg-gray-400 text-purple-800 font-bold rounded-lg hover:bg-gray-700 hover:text-white transition-colors"
+            className="px-4 py-2 md:px-8 md:py-4 text-lg bg-gray-400 text-purple-800 font-bold rounded-lg hover:bg-gray-700 hover:text-white transition-colors"
           >
             Select Another Quiz
           </button>

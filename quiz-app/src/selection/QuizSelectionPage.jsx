@@ -6,7 +6,7 @@ const QuizCategoryCard = ({ title, description, onClick, isSelected }) => {
   return (
     <div
       onClick={onClick}
-      className={`bg-gray-800 p-6 rounded-xl shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl flex flex-col items-center text-center ${
+      className={`bg-gray-800 p-6 rounded-xl shadow-lg cursor-pointer transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:bg-purple-800 flex flex-col items-center text-center ${
         isSelected ? 'border-2 border-purple-500' : 'border-2 border-transparent'
       }`}
     >

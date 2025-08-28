@@ -52,12 +52,12 @@ function Login({ username, setUsername, password, setPassword, statusMessage, ha
         {/*
          * Responsive Typography:
          * The heading is 4xl by default (mobile-first) and scales up to 5xl on medium screens (md:).
-         * This ensures the title looks good on all devices.
+         * This ensures the title looks good on all devices text-3xl md:text-5xl.
          */}
-        <h2 className="text-4xl font-extrabold text-purple-700 md:text-5xl text-center mb-2">
+        <h2 className="text-2xl md:text-5xl font-extrabold text-purple-700 text-center mb-2">
           Knowledge Quest
         </h2>
-        <p className="text-center text-lg md:text-xl text-gray-400 font-medium mb-8">
+        <p className="text-center text-sm md:text-xl text-gray-400 font-medium mb-8">
           Where every answer is an adventure
         </p>
 
