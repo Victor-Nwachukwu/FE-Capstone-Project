@@ -1,6 +1,11 @@
 Knowledge Quest
 Live Demo: https://knowledge-quest.vercel.app
 
+LOGIN DETAILS:
+USERNAME: user
+PASSWORD: pass@2025
+
+
 About the Project
 Knowledge Quest is a dynamic and interactive trivia quiz application designed to test your knowledge on a variety of subjects. Built with React.js and styled using Tailwind CSS, the app provides a seamless and visually appealing experience on both desktop and mobile devices.
 The application features a modern, responsive design and a simple, user-friendly interface. With a focus on a smooth user journey, Knowledge Quest is the perfect platform for quick, challenging trivia sessions.
